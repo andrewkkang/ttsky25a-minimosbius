@@ -20,7 +20,7 @@ module tt_um_mosbius (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-    tt_um_mosbius(
+    tt_um_mosbius mosbius (
         .bus5(ua[4]),
 	.bus4(ua[3]),
 	.bus3(ua[2]),
